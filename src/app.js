@@ -1,5 +1,5 @@
 const express = require("express");
-const companyRouter = require("./src/routers/company");
+const companyRouter = require("./routers/company")
 const cors = require("cors");
 const app = express();
 require("./src/db/dynamodb");
